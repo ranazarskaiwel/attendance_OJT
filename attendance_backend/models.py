@@ -10,5 +10,5 @@ attendance = Table(
     Column("status", String, nullable=False)
 )
 
-# Create tables in PostgreSQL
+# This line actually creates the table in the database
 metadata.create_all(engine)
